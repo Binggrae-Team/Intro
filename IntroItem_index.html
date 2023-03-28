@@ -11,10 +11,13 @@
     <link rel="icon" href="./img/파비콘.png">
 
     <!-- reset css -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"> -->
 
     <!-- custom css -->
     <link rel="stylesheet" href="./css/main.css">
+
+    <!-- linear icons -->
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
 </head>
 
@@ -24,42 +27,65 @@
             <div class="header-top">
                 <ul class="ko">
                     <li><a href="#"><span>구매포털시스템</span><img src="./img/link_arrow02.png" alt="link arrow"></a></li>
-                    <span></span>
                     <li><a href="#"><span>인재채용</span><img src="./img/link_arrow02.png" alt="link arrow"></a></li>
                 </ul>
             </div>
-            <div class="header-container">
+            <div class="header-container flex_center">
                 <h1>
                     <a href="#">
                         <img src="./img/logo-pc.png" alt="binggrae" class="pc">
                         <img src="./img/logo_mo.png" alt="binggrae" class="logo_mo hide">
                     </a>
                 </h1>
-                <ul class="ko">
-                    <li>회사소개</li>
-                    <li>제품소개</li>
-                    <li>지속가능경영</li>
-                    <li>투자정보</li>
-                    <li>뉴스룸</li>
-                    <li>고객센터</li>
-                </ul>
-                <div class="hammenu">
-                    <ul>
-                        <li><a href="lang"></a></li>
-                        <li><a href="img/"></a></li>
+                <nav class="gnv">
+                    <ul class="flex_center">
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">제품소개</a></li>
+                        <li><a href="#">지속가능경영</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">뉴스룸</a></li>
+                        <li><a href="#">고객센터</a></li>
                     </ul>
-                    <ul class="hide">
-                        <li>KR</li>
-                        <li>EN</li>
-                        <li>CN</li>
-                    </ul>
+                </nav>
+                <div class="ham-menu">
+                    <div class="lang">
+                        <p class="flex_center">
+                            <span class="font_poppin">KR</span>
+                            <span class="lang_btn">
+                                <img src="./img/lang_btn.png" alt="lang_btn">
+                            </span>
+                        </p>
+                        <ul class="hide">
+                            <li>KR</li>
+                            <li>EN</li>
+                            <li>CN</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </header>
         <!-- end header -->
 
-        <section class="top">
-            <h3>제품소개</h3>
+        <section class="main">
+            <div class="main_top">
+                <ul>
+                    <li><img src="./img/btn_icon_home.png" alt="home_icon"></li>
+                    <li><span>></span></li>
+                    <li><a href="#">제품소개</a></li>
+                </ul>
+                <h3 class="title">제품소개</h3>
+            </div>
+            <div class="content">
+                <div class="inner">
+                    <p>빙그레의 브랜드 / 제품 / 맛을 검색해 보세요.</p>
+                    <div class="search_box">
+                        <div class="search flex_center">
+                            <input type="text" name="search_name" id="search_name" placeholder="검색어를 입력해 주세요">
+                            <button class="flex_center font_poppin">SEARCH</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </div>
 </body>
