@@ -8,75 +8,98 @@
     <title>빙그레 - 제품소개 (페이지인 척 하는 중)</title>
 
     <!-- 파비콘 -->
-    <link rel="icon" href="./img/파비콘.png">
+    <link rel="icon" href="img/ico_favicon.ico">
 
     <!-- reset css -->
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"> -->
 
-    <!-- custom css -->
-    <link rel="stylesheet" href="./css/main.css">
-
-    <!-- linear icons -->
-    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- common css -->
+    <link rel="stylesheet" href="css/common.css">
+    <!-- header css -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- footer css -->
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- aside css -->
+    <link rel="stylesheet" href="css/aside.css">
 
 </head>
 
 <body>
     <div class="wrap">
-        <header class="header">
-            <div class="header_top">
-                <ul class="ko flex_center">
-                    <li><a href="#" class="flex_center"><span>구매포털시스템</span><img src="./img/link_arrow02.png"
-                                alt="link arrow"></a></li>
-                    <li><a href="#" class="flex_center"><span>인재채용</span><img src="./img/link_arrow02.png"
-                                alt="link arrow"></a></li>
-                </ul>
-            </div>
-            <div class="header_container flex_center">
-                <h1 class="header_sec01 logo">
-                    <a href="#">
-                        <img src="./img/logo-pc.png" alt="binggrae" class="pc">
-                        <img src="./img/logo_mo.png" alt="binggrae" class="logo_mo hide">
-                    </a>
-                </h1>
-                <div class="header_sec02">
-                    <nav class="gnv">
-                        <ul class="flex_center depth01">
-                            <li><a href="#">회사소개</a></li>
-                            <li><a href="#">제품소개</a></li>
-                            <li><a href="#">지속가능경영</a></li>
-                            <li><a href="#">투자정보</a></li>
-                            <li><a href="#">뉴스룸</a></li>
-                            <li><a href="#">고객센터</a></li>
-                        </ul>
-                    </nav>
+        <div class="front_header">
+            <header class="header">
+                <div class="header_top">
+                    <ul class="ko flex_center">
+                        <li><a href="#" class="flex_center"><span>구매포털시스템</span><img src="./img/link_arrow02.png"
+                                    alt="link arrow"></a></li>
+                        <li><a href="#" class="flex_center"><span>인재채용</span><img src="./img/link_arrow02.png"
+                                    alt="link arrow"></a></li>
+                    </ul>
                 </div>
-                <div class="header_sec03 flex_center">
-                    <div class="ham-menu flex_center">
-                        <div class="lang">
-                            <p class="flex_center">
-                                <span class="font_poppin">KR</span>
-                                <span class="lang_btn">
-                                    <img src="./img/lang_btn.png" alt="lang_btn">
-                                </span>
-                            </p>
-                            <ul class="hide">
-                                <li>KR</li>
-                                <li>EN</li>
-                                <li>CN</li>
+                <div class="header_container flex_center">
+                    <h1 class="header_sec01 logo">
+                        빙그레
+                        <a href="#">
+                            <img src="./img/logo-pc.png" alt="binggrae" class="pc">
+                            <!-- <img src="./img/logo_mo.png" alt="binggrae" class="logo_mo hide"> -->
+                        </a>
+                    </h1>
+                    <div class="header_sec02">
+                        <nav class="gnv">
+                            <ul class="flex_center depth01">
+                                <li><a href="#">회사소개</a></li>
+                                <li><a href="#">제품소개</a></li>
+                                <li><a href="#">지속가능경영</a></li>
+                                <li><a href="#">투자정보</a></li>
+                                <li><a href="#">뉴스룸</a></li>
+                                <li><a href="#">고객센터</a></li>
                             </ul>
-                        </div>
-                        <div class="hamburger">
-                            <a href="#">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </a>
+                        </nav>
+                    </div>
+                    <div class="header_sec03 flex_center">
+                        <div class="ham-menu flex_center">
+                            <div class="lang">
+                                <p class="flex_center">
+                                    <span class="font_poppin">KR</span>
+                                    <span class="lang_btn">
+                                        <img src="./img/lang_btn.png" alt="lang_btn">
+                                    </span>
+                                </p>
+                                <ul class="hide">
+                                    <li>KR</li>
+                                    <li>EN</li>
+                                    <li>CN</li>
+                                </ul>
+                            </div>
+                            <div class="hamburger">
+                                <a href="#">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </header>
+            </header>
+            <aside>
+                <div class="btn_wr cf">
+                    <div class="quick_btn">
+                        <img src="img/chat_img.png" alt="chat">
+                        <p class="quick_message">무엇을 도와드릴까요?</p>
+                    </div>
+                    <div class="aside_btn shop">
+                        <a href="#" class="btn font_poppin">SHOP</a>
+                    </div>
+                    <div class="aside_btn down">
+                        <button class="btn to_down"><img src="img/fix_arrow.png" alt=""></button>
+                        <button class="btn to_top"><img src="img/fix_arrow.png" alt=""></button>
+                    </div>
+                </div>
+            </aside>
+        </div>
         <!-- end header -->
 
         <div id="product" class="main">
@@ -107,68 +130,89 @@
                     </div>
                 </section>
                 <section class="section sec2">
-                    <div class="product_list_slide slick_slider">
+                    <div class="product_list_slide inb slick_slider">
                         <div class="slick_list">
-                            <div class="slide_track" style="opacity: 1; width: 1250px; transform: translate3d(0px, 0px, 0px);">
-                                <div class="list_it n1">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/ico_list.png" alt="menu icon"></div>
-                                        <span class="flex_center">전체</span>
-                                    </a>
+                            <div class="slick_track"
+                                style="opacity: 1; width: 1250px; transform: translate3d(0px, 0px, 0px);">
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n1" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/ico_list.png" alt="menu icon"></div>
+                                            <span>전체</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n2">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/icecream.png" alt="icecream"></div>
-                                        <span class="flex_center">아이스크림</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n2" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/icecream.png" alt="icecream"></div>
+                                            <span>아이스크림</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n3">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/milk.png" alt="milk"></div>
-                                        <span class="flex_center">우유/치즈</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n3" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/milk.png" alt="milk"></div>
+                                            <span>우유/치즈</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n4">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/yogurt.png" alt="yogurt"></div>
-                                        <span class="flex_center">발효유</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n4" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/yogurt.png" alt="yogurt"></div>
+                                            <span>발효유</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n5">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/coffee.png" alt="coffee"></div>
-                                        <span class="flex_center">커피</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n5" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/coffee.png" alt="coffee"></div>
+                                            <span>커피</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n6">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/juice.png" alt="juice"></div>
-                                        <span class="flex_center">주스</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n6" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/juice.png" alt="juice"></div>
+                                            <span>주스</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n7">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/drink.png" alt="drink"></div>
-                                        <span class="flex_center">음료</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n7" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/drink.png" alt="drink"></div>
+                                            <span>음료</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n8">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/snack.png" alt="snack"></div>
-                                        <span class="flex_center">스낵/디저트</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n8" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/snack.png" alt="snack"></div>
+                                            <span>스낵/디저트</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n9">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/health.png" alt="health"></div>
-                                        <span class="flex_center">건강지향</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n9" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/health.png" alt="health"></div>
+                                            <span>건강지향</span>
+                                        </a>
+                                    </div>
                                 </div>
-                                <div class="list_it n10">
-                                    <a href="#" class="txt_box">
-                                        <div class="img_box"><img src="./img/earth.png" alt="earth"></div>
-                                        <span class="flex_center">수출제품</span>
-                                    </a>
+                                <div class="slick_slide" style="width: 125px;">
+                                    <div class="list_it n10" style="width: 100%; display: inline-block;">
+                                        <a href="#" class="txt_box">
+                                            <div class="img_box"><img src="./img/earth.png" alt="earth"></div>
+                                            <span>수출제품</span>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -176,13 +220,273 @@
                 </section>
 
                 <section class="section sec3">
-                    <h4>
+                    <h4 class="font_bingbold b_txt">
                         전체제품(<span id="listCnt" class="num font_bingbold b_txt">97</span>)
                     </h4>
+                    <ul id="product_area" class="product_list inb">
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">바나나맛우유</li>
+                                    <li class="feature_it">4개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/banana milk.png" alt="바나나맛우유"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">바나나맛우유</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">요플레 오리지널</li>
+                                    <li class="feature_it">11개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_yo_strawberry.png" alt="요플레 오리지널"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">요플레 오리지널</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">메로나</li>
+                                    <li class="feature_it">6개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_melona_original.png" alt="메로나"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">메로나</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">요플레 닥터캡슐</li>
+                                    <li class="feature_it">4개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_yodoctor_plain.png" alt="요플레 닥터캡슐">
+                                </div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">요플레 닥터캡슐</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">투게더</li>
+                                    <li class="feature_it">5개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_together_original.png" alt="투게더"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">투게더</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">끌레도르</li>
+                                    <li class="feature_it">22개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_cledor_bar_creamcheese.png" alt="끌레도르">
+                                </div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">끌레도르</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">붕어싸만코</li>
+                                    <li class="feature_it">5개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_bung_original.png" alt="붕어싸만코"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">붕어싸만코</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hovere">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">슈퍼콘</li>
+                                    <li class="feature_it">1개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_supercorn_choco.png" alt="슈퍼콘"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">슈퍼콘</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">요플레 토핑</li>
+                                    <li class="feature_it">4개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_yotopping_choco.png" alt="요플레 토핑"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">요플레 토핑</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">요플레 프로틴</li>
+                                    <li class="feature_it">6개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_yooprotein_plain.png" alt="요플레 프로틴">
+                                </div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">요플레 프로틴</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">우유얌</li>
+                                    <li class="feature_it">2개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_yam_strawberry.png" alt="우유얌"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">우유얌</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">닥터캡슐</li>
+                                    <li class="feature_it">1개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/doctorcap.png" alt="닥터캡슐"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">닥터캡슐</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">더:단백</li>
+                                    <li class="feature_it">12개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_thedrink_choco.png" alt="더:단백"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">더:단백</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">아연워터</li>
+                                    <li class="feature_it">1개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/ayeonwater.png" alt="아연워터"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">아연워터</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">비바시티</li>
+                                    <li class="feature_it">4개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_viva_berrymix.png" alt="비바시티"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">비바시티</div>
+                        </li>
+                        <li class="product_item">
+                            <div class="product_box box_hover">
+                                <ul class="feature_wr inb">
+                                    <li class="feature_it">비비빅</li>
+                                    <li class="feature_it">4개 제품</li>
+                                </ul>
+                                <div class="img_wr"><img src="img/product/taste_bibibig_original.png" alt="비비빅"></div>
+                                <div class="btn_wr"><button class="view_more red">더보기</button></div>
+                            </div>
+                            <div class="product_name">비비빅</div>
+                        </li>
+                    </ul>
+                    <div class="list_btn_wr flex_center"><button class="view_more">더보기</button></div>
                 </section>
 
             </div>
         </div>
+        <!-- footer -->
+        <footer>
+            <div class="footer">
+                <div class="footer01">
+                    <div class="footer-logo">
+                        <img src="./img/f_logo.png" alt="빙그래 이미지">
+                    </div>
+                    <ul class="footer-right">
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">오시는길</a></li>
+                    </ul>
+                </div>
+                <div class="footer02">
+                    <div class="footer02-box">
+                        <ul>
+                            <li>
+                                <span>회사명 : </span><span>빙그레</span>
+                            </li>
+                            <li>
+                                <span>서울 마포구 신수동 63-14 3층/서울 마포구 백범로 23 3층</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer03">
+                    <p class="copy">ⓒ Binggrae all rights reserved.</p>
+                    <div class="logo-box">
+                        <div class="out-logo">
+                            <div class="snsbox">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="./img/footer_sns01.png" alt="인스타로고">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="./img/footer_sns02.png" alt="유튜브로고">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <img src="./img/footer_sns03.png" alt="tft몰로고">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="store-logo">
+                            <a href="#">
+                                <img src="./img/flag_store.png" alt="소프트로고">
+                                <span>
+                                    Flagship store
+                                    <strong>Soft Lab</strong>
+                                </span>
+                            </a>
+                            <img src="./img/select_btn01.png" alt="화살표">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- footer04 모바일버전에서 보이는 구간 
+                    이 구간 때문에 맨 밑에 여백 남음 반응형 적용 해야함-->
+
+            <!-- <div class="footer04">
+                    <ul>
+                        <li>
+                            <a href="#">고객센터</a>
+                        </li>
+                        <li>
+                            <a href="#">1:1이메일문의</a>
+                        </li>
+                    </ul>
+                    <p class="copy">ⓒ Binggrae all rights reserved.</p>
+                </div> -->
+
+        </footer>
     </div>
 </body>
 
