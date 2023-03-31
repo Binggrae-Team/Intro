@@ -1,4 +1,4 @@
 본사이트 - 내꺼
-id Product(class main) - id Product(class content_wrapper~)
+id Product(class content_wrapper~) - id Product(class main)
 
 class cont_wr - class content
